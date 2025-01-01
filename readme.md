@@ -1,4 +1,4 @@
 <p align="center">
-  <img src="https://github.com/CodeEditApp/CodeEdit/blob/main/.github/CodeEdit-Icon-128@2x.png?raw=true" height="128">
+  <img src="https://github.com/MuffinLorde/wbash/blob/main/assets/logo.png" height="300">
   <h1 align="center">WBash</h1>
 </p>
