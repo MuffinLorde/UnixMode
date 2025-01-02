@@ -11,7 +11,7 @@
 </br>
 
 ## Activity
-![Alt](https://repobeats.axiom.co/api/embed/dda456973b91ed3a3271936f2b8572cf98292969.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/47128c3c597eeb394ba4835f30172750d3fb021d.svg "Repobeats analytics image")
 
 
 ## How to Compile
