@@ -60,6 +60,20 @@ void mainFunc() {
         else if (strcmp(usrCommand, "pwd") == 0) {
             printf("%s \n\n", path);
         }
+/*        else if (strcmp(usrCommand, "sdp") == 0) {
+            setDefault(path);
+        } */
+        else if (strncmp(usrCommand, "sdp ", 4) == 0) {
+            char *newPath = usrCommand + 4;            // Skip the "sdp " part
+            while (*newPath == ' ') {
+                newPath++;
+            }
+            if (*newPath == '\0') {
+                printf("Path not valid\n\n");
+            } else {
+                setDefault(newPath);
+            }
+        }
         else if (strcmp(usrCommand, "exit") == 0) {
            break;
         }
