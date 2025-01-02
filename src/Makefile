@@ -5,13 +5,14 @@ SRC = wbash.c startup.c startup.h simple-commands.c simple-commands.h file-manag
 UNIXSRC = unix.c
 TARGETUNIX = unix.exe
 
-all: $(TARGET)
+all: $(TARGET) $(TARGETUNIX)
 
 $(TARGET): $(SRC)
 	$(CC) $(SRC) -o $(TARGET)
 
-unix:
-	gcc $(UNIXSRC) -o $(TARGETUNIX)
+$(TARGETUNIX): $(UNIXSRC)
+	$(CC) $(CFlags) $(UNIXSRC) -o $(TARGETUNIX)
 
 clean:
 	rm $(TARGET)
+	rm $(TARGETUNIX)
