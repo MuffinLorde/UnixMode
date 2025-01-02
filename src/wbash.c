@@ -64,9 +64,10 @@ void mainFunc() {
             helpList();
         }
         else {
-            commandError(usrCommand);
+            system(usrCommand);
+/*          commandError(usrCommand);
             printf("");
-            mainFunc();
+            mainFunc(); */
         }
     }
 }
