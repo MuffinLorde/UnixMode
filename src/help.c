@@ -4,11 +4,30 @@
 
 #include <stdio.h>
 #include "help.h"
+#include <ctype.h>
+
+void listCommand(char command[32], char description[256]) {
+    char upperCommand[32];
+    int i;
+
+    for (i = 0; command[i] != '\0' && i < 31; i++) {
+        upperCommand[i] = toupper(command[i]);
+    }
+    upperCommand[i] = '\0';
+
+    printf("%s      %s\n", upperCommand, description);
+    return 0;
+}
 
 void helpList() {
-    printf("For more information type help [command-name]\n\n");
+/*    printf("For more information type help [command-name]\n\n");
     printf("CLEAR       clears the cmd\n");
     printf("ECHO        Prints a message onto the screen\n");
     printf("EXIT        Exits WBASH\n");
-    printf("VERSION     States which version of WBASH you have\n\n");
+    printf("VERSION     States which version of WBASH you have\n\n"); */
+
+    listCommand("clear      ", "Clears the cmd");
+    listCommand("echo       ", "Prints a message onto the screen");
+    listCommand("exit       ", "Exits WBASH");
+    listCommand("version    ", "States which version of WBASH you have");
 }
