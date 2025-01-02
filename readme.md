@@ -35,7 +35,7 @@ make
 
 4. If you also want to be able to type unix instead of wbash in order to use it, type:
 ```
-gcc unix.c -o unix
+make unix
 ```
 
 5. In order to use the program type:
