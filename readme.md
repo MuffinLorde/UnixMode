@@ -23,7 +23,7 @@
 ### Guide
 1. Download or clone the file using Git
 2. Locate the file using the cmd/terminal on Windows
-3. Type these commands in sequential order:
+3. Type these commands in order:
 
 ```
 cd src
