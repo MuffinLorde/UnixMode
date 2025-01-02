@@ -33,7 +33,7 @@ cd src
 make
 ```
 
-5. In order to use the program type:
+4. In order to use the program type:
 ```
 unix
 ```
