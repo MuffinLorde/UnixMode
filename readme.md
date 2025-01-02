@@ -3,7 +3,7 @@
   <h1 align="center">UnixMode</h1>
 </p>
 
-**UnixMode** is a lightweight terminal application for Windows that enables you to use Linux commands seamlessly on your Windows system. Unlike traditional solutions like WSL, UnixMode provides a straightforward way to execute Linux-style commands without leaving the Windows environment.
+**UnixMode** is a lightweight terminal application for Windows that enables you to use Linux commands seamlessly on your Windows system. UnixMode and WSL are 2 different tools as UnixMode allows the user to run Linux commands on the Windows enviromnet while WSL allows the user to create an entirely new Linux enviroment.
 
 >[!IMPORTANT]
 >UnixMode is still in a pre-alpha state meaning that it barely has and is still being updated to get it to the beta version
