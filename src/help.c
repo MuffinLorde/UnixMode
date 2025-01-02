@@ -26,6 +26,7 @@ void helpList() {
     printf("EXIT        Exits WBASH\n");
     printf("VERSION     States which version of WBASH you have\n\n"); */
 
+    printf("For more information type help [command-name]\n\n");
     listCommand("clear      ", "Clears the cmd");
     listCommand("echo       ", "Prints a message onto the screen");
     listCommand("exit       ", "Exits WBASH");
