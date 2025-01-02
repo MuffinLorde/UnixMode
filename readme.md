@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://github.com/MuffinLorde/wbash/blob/main/assets/logo.png" height="250">
-  <h1 align="center">WBASH</h1>
+  <h1 align="center">UnixMode</h1>
 </p>
 
-**WBASH** is a lightweight terminal application for Windows that enables you to use Linux commands seamlessly on your Windows system. Unlike traditional solutions like WSL, WBASH provides a straightforward way to execute Linux-style commands without leaving the Windows environment.
+**UnixMode** is a lightweight terminal application for Windows that enables you to use Linux commands seamlessly on your Windows system. Unlike traditional solutions like WSL, UnixMode provides a straightforward way to execute Linux-style commands without leaving the Windows environment.
 
 >[!IMPORTANT]
->WBASH is still in a pre-alpha state meaning that it barely has and is still being updated to get it to the beta version
+>UnixMode is still in a pre-alpha state meaning that it barely has and is still being updated to get it to the beta version
 
 </br>
 
@@ -31,11 +31,6 @@ cd src
 
 ```
 make
-```
-
-4. If you also want to be able to type unix instead of wbash in order to use it, type:
-```
-make unix
 ```
 
 5. In order to use the program type:
