@@ -29,3 +29,7 @@ void ls(char path[256]) {
         printf("Cannot open directory %s\n", path);
     }
 }
+
+/* void cp(char source[256], char destination[256]) {
+
+} */
