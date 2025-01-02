@@ -38,7 +38,7 @@ void mainFunc() {
                 snprintf(path, sizeof(path), "%s", newPath);
             }
             else {
-                printf("Directory %s not found", newPath);
+                printf("Directory %s not found \n\n", newPath);
             }
         }
 
@@ -56,6 +56,9 @@ void mainFunc() {
         }
         else if (strcmp(usrCommand, "ls") == 0) {
             ls(path);
+        }
+        else if (strcmp(usrCommand, "pwd") == 0) {
+            printf("%s \n\n", path);
         }
         else if (strcmp(usrCommand, "exit") == 0) {
            break;
