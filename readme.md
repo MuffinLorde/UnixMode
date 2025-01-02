@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/MuffinLorde/wbash/blob/main/assets/logo.png" height="200">
+  <img src="https://github.com/MuffinLorde/wbash/blob/main/assets/logo.png" height="250">
   <h1 align="center">WBASH</h1>
 </p>
 
