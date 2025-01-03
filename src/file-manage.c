@@ -5,6 +5,16 @@
 #include <dirent.h>
 #include "file-manage.h"
 
+int fixPath(char *path) {
+    for (int i = 0; path[i] != '\0'; i++) {
+        if (path[i] == '\\') {
+            path[i] = '/';
+        }
+    }
+
+    return path;
+}
+
 //Touch is used to create files on the system
 void touch(char fileName[128]) {
     FILE *fptr;

@@ -34,6 +34,7 @@ void mainFunc() {
 
         if (strncmp(usrCommand, "cd ", 3) == 0) {
             char *newPath = usrCommand + 3;
+            fixPath(newPath);
             if (chdir(newPath) == 0) {
                 snprintf(path, sizeof(path), "%s", newPath);
             }
