@@ -3,8 +3,8 @@
 //they're there for
 
 #include <stdio.h>
-#include "help.h"
 #include <ctype.h>
+#include "help.h"
 
 void listCommand(char command[32], char description[256]) {
     char upperCommand[32];
@@ -20,15 +20,20 @@ void listCommand(char command[32], char description[256]) {
 }
 
 void helpList() {
-/*    printf("For more information type help [command-name]\n\n");
-    printf("CLEAR       clears the cmd\n");
-    printf("ECHO        Prints a message onto the screen\n");
-    printf("EXIT        Exits WBASH\n");
-    printf("VERSION     States which version of WBASH you have\n\n"); */
-
     printf("For more information type help [command-name]\n\n");
+    printf("CLEAR       clears the cmd\n");
+    printf("PWD         Prints the working directory\n");
+    printf("SDP         Sets the default directory UnixMode enters into\n");
+    printf("ECHO        Prints a message onto the screen\n");
+    printf("EXIT        Exits UnixMode\n");
+    printf("VERSION     States which version of UnixMode you have\n\n");
+
+/*    printf("For more information type help [command-name]\n\n");
     listCommand("clear      ", "Clears the cmd");
     listCommand("echo       ", "Prints a message onto the screen");
-    listCommand("exit       ", "Exits WBASH");
-    listCommand("version    ", "States which version of WBASH you have");
+    listCommand("pwd        ", "Prints the working directory");
+    listCommand("sdp        ", "Sets the default directory UnixMode enters into");
+    listCommand("exit       ", "Exits UnixMode");
+    listCommand("version    ", "States which version of UnixMode you have");
+    printf("\n"); */
 }

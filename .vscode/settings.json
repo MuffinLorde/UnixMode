@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "simple-commands.h": "c",
-        "file-manage.h": "c"
+        "file-manage.h": "c",
+        "stdio.h": "c",
+        "help.h": "c"
     }
 }

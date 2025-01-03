@@ -65,7 +65,8 @@ void mainFunc() {
             setDefault(path);
         } */
         else if (strncmp(usrCommand, "sdp ", 4) == 0) {
-            char *newPath = usrCommand + 4;            // Skip the "sdp " part
+            char *newPath = usrCommand + 4;
+            fixPath(newPath);
             while (*newPath == ' ') {
                 newPath++;
             }
@@ -80,6 +81,9 @@ void mainFunc() {
         }
         else if (strcmp(usrCommand, "help") == 0) {
             helpList();
+        }
+        else if (strcmp(usrCommand, "version") == 0) {
+            version();
         }
         else {
             system(usrCommand);

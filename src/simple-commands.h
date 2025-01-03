@@ -4,5 +4,6 @@
 void echo(char phrase[]);
 void clear();
 void commandError();
+void version();
 
 #endif
