@@ -7,6 +7,7 @@
 
 >[!IMPORTANT]
 >UnixMode is still in a pre-alpha state meaning that it barely has and is still being updated to get it to the beta version
+>The SDP Command doesn't work yet
 
 </br>
 
