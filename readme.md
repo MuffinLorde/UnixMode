@@ -6,10 +6,8 @@
 **UnixMode** is a lightweight terminal application for Windows that enables you to use Linux commands seamlessly on your Windows system. UnixMode and WSL are 2 different tools as UnixMode allows the user to run Linux commands on the Windows enviromnet while WSL allows the user to create an entirely new Linux enviroment.
 
 >[!IMPORTANT]
->UnixMode is still in a pre-alpha state meaning that it barely has and is still being updated to get it to the beta version
->The SDP Command doesn't work yet
-
-</br>
+>UnixMode is still in a pre-alpha state meaning that it barely has and is still being updated to get it to the beta version </br>
+> Also, the SDP command doesn't work yet
 
 ## Activity
 ![Alt](https://repobeats.axiom.co/api/embed/3b6eecf7dca8de0d29fa41a90cbf42a54cd15951.svg "Repobeats analytics image")
